@@ -13,8 +13,8 @@
       "path---learn-scss-in-15-mins-c760b6bb9fa7a7d1482e.js.map"
     ],
     "path---": [
-      "path----ad715013bcd80a405300.js",
-      "path----ad715013bcd80a405300.js.map"
+      "path----ae9c26598e7f3070bdd3.js",
+      "path----ae9c26598e7f3070bdd3.js.map"
     ],
     "path---react-native-project-start-step": [
       "path---react-native-project-start-step-edd0fd11fec21b109307.js",
@@ -29,8 +29,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-f353be3d10927782d71d.js",
-      "component---src-layouts-index-js-f353be3d10927782d71d.js.map"
+      "component---src-layouts-index-js-7e7d76c6e304b51bdb10.js",
+      "component---src-layouts-index-js-7e7d76c6e304b51bdb10.js.map"
     ],
     "path---flex-react-native": [
       "path---flex-react-native-8ad76f91aae109bb1561.js",
@@ -58,6 +58,10 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---react-chinese-ime-issue": [
+      "path---react-chinese-ime-issue-c10de01747ae6b8a4fb9.js",
+      "path---react-chinese-ime-issue-c10de01747ae6b8a4fb9.js.map"
+    ],
     "component---src-templates-post-template-js": [
       "component---src-templates-post-template-js-e9424d4785a7222c147f.js",
       "component---src-templates-post-template-js-e9424d4785a7222c147f.js.map"
@@ -67,9 +71,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-0cab4be7f615ed5d7d0c.js",
+      "app-3ea7eecfdafd2d924869.js",
       "build-js-styles.css",
-      "app-0cab4be7f615ed5d7d0c.js.map",
+      "app-3ea7eecfdafd2d924869.js.map",
       "build-js-styles.css.map"
     ],
     "path---new-blog": [
