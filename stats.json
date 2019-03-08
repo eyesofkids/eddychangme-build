@@ -8,9 +8,13 @@
       "path---test-gatsby-in-lan-3e54a80cac63de455e32.js",
       "path---test-gatsby-in-lan-3e54a80cac63de455e32.js.map"
     ],
+    "path---learn-scss-in-15-mins": [
+      "path---learn-scss-in-15-mins-c760b6bb9fa7a7d1482e.js",
+      "path---learn-scss-in-15-mins-c760b6bb9fa7a7d1482e.js.map"
+    ],
     "path---": [
-      "path----89f23bce123aab2c38f2.js",
-      "path----89f23bce123aab2c38f2.js.map"
+      "path----ad715013bcd80a405300.js",
+      "path----ad715013bcd80a405300.js.map"
     ],
     "path---react-native-project-start-step": [
       "path---react-native-project-start-step-edd0fd11fec21b109307.js",
@@ -25,8 +29,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-76796b16914487c28f79.js",
-      "component---src-layouts-index-js-76796b16914487c28f79.js.map"
+      "component---src-layouts-index-js-f353be3d10927782d71d.js",
+      "component---src-layouts-index-js-f353be3d10927782d71d.js.map"
     ],
     "path---flex-react-native": [
       "path---flex-react-native-8ad76f91aae109bb1561.js",
@@ -63,9 +67,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-c49ac9633f92e6d3900b.js",
+      "app-0cab4be7f615ed5d7d0c.js",
       "build-js-styles.css",
-      "app-c49ac9633f92e6d3900b.js.map",
+      "app-0cab4be7f615ed5d7d0c.js.map",
       "build-js-styles.css.map"
     ],
     "path---new-blog": [
