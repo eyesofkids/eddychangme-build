@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[eddychang部落格]]></title><description><![CDATA[Eddy Chang的個人部落格]]></description><link>https://eddychang.me</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Mar 2019 04:23:25 GMT</lastBuildDate><item><title><![CDATA[新的部落格上線了！]]></title><description><![CDATA[新的部落格正式上線了(2019/03/08)。 改使用 gatsby 的方式產生網頁，樣版使用 gatsby-starter-personal-blog 原有的部落格文章將會先放在 https://oldblog.eddychang.me…]]></description><link>https://eddychang.me/new-blog/</link><guid isPermaLink="false">https://eddychang.me/new-blog/</guid><content:encoded>&lt;p&gt;新的部落格正式上線了(2019/03/08)。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[eddychang部落格]]></title><description><![CDATA[Eddy Chang的個人部落格]]></description><link>https://eddychang.me</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Mar 2019 16:41:23 GMT</lastBuildDate><item><title><![CDATA[新的部落格上線了！]]></title><description><![CDATA[新的部落格正式上線了(2019/03/08)。 改使用 gatsby 的方式產生網頁，樣版使用 gatsby-starter-personal-blog 原有的部落格文章將會先放在 https://oldblog.eddychang.me…]]></description><link>https://eddychang.me/new-blog/</link><guid isPermaLink="false">https://eddychang.me/new-blog/</guid><content:encoded>&lt;p&gt;新的部落格正式上線了(2019/03/08)。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;改使用 gatsby 的方式產生網頁，樣版使用&lt;a href=&quot;https://github.com/greglobinski/gatsby-starter-personal-blog&quot;&gt;gatsby-starter-personal-blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;原有的部落格文章將會先放在&lt;a href=&quot;https://oldblog.eddychang.me&quot;&gt;https://oldblog.eddychang.me&lt;/a&gt;中，之後會將還能使用與參考的文章移到新的部落格之中。&lt;/li&gt;
@@ -65,7 +65,16 @@
 &lt;p&gt;因此，像 ignite 也不適合初學者使用，雖然它內附了不少常用的模組和第三方函式庫工具，對於熟悉這些工具的開發者會較為實用，用它可以節省一些安裝這些工具的時間。&lt;/p&gt;
 &lt;p&gt;目前像這種專案樣版計劃，可能只剩下 ignite 還有在更新，其它的計劃(例如 snowflake 或 pepperoni-app-kit)都沒在更新了，已經很久沒有更新的不要再考慮使用。&lt;/p&gt;
 &lt;h2&gt;步驟&lt;/h2&gt;
-&lt;p&gt;參考&lt;a href=&quot;https://facebook.github.io/react-native/docs/getting-started&quot;&gt;Ignite CLI Documentation&lt;/a&gt;的說明。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Native 中使用 Flexbox 筆記]]></title><description><![CDATA[Flexbox 排版的全名是 Flexible Box Layout Module (彈性的盒排版模組)，是由 W3C 所制定的 CSS3 排版模組。Flexbox…]]></description><link>https://eddychang.me/flex-react-native/</link><guid isPermaLink="false">https://eddychang.me/flex-react-native/</guid><content:encoded>&lt;p&gt;Flexbox 排版的全名是&lt;a href=&quot;https://www.w3.org/TR/css-flexbox/&quot;&gt;Flexible Box Layout Module&lt;/a&gt;(彈性的盒排版模組)，是由 W3C 所制定的 CSS3 排版模組。Flexbox 的目的是提供更有效率的排版、對齊與分佈空格在容器之中的項目，甚至是在項目的尺寸大小是未知或動態的情況。&lt;/p&gt;
+&lt;p&gt;參考&lt;a href=&quot;https://facebook.github.io/react-native/docs/getting-started&quot;&gt;Ignite CLI Documentation&lt;/a&gt;的說明。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[區域網路用Gatsby Develop測試]]></title><description><![CDATA[測試 Gatsby 時，使用下面的指令只能在同一台機器上用   測試: 如果你想要在同區域網路(或無線網路)的手機、其它電腦上的瀏覽器來測試時，可以改用以下的指令來啟動測試伺服器(-H 是 host 的意思): 之後手機或其它電腦的瀏覽器可以直接輸入 ip…]]></description><link>https://eddychang.me/test-gatsby-in-lan/</link><guid isPermaLink="false">https://eddychang.me/test-gatsby-in-lan/</guid><content:encoded>&lt;p&gt;測試 Gatsby 時，使用下面的指令只能在同一台機器上用 &lt;code class=&quot;language-text&quot;&gt;localhost&lt;/code&gt; 測試:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;如果你想要在同區域網路(或無線網路)的手機、其它電腦上的瀏覽器來測試時，可以改用以下的指令來啟動測試伺服器(-H 是 host 的意思):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby develop -H 0.0.0.0 -p 8000&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;之後手機或其它電腦的瀏覽器可以直接輸入 ip 加上埠號來測試，例如&lt;code class=&quot;language-text&quot;&gt;http://192.168.2.105:8000/&lt;/code&gt;就可以看到網站畫面。&lt;/p&gt;
+&lt;p&gt;另外也有使用電腦 hostname 的方式，請再參考官方的 Github 中&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/issues/5801&quot;&gt;issue #5801&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Native 中使用 Flexbox 筆記]]></title><description><![CDATA[Flexbox 排版的全名是 Flexible Box Layout Module (彈性的盒排版模組)，是由 W3C 所制定的 CSS3 排版模組。Flexbox…]]></description><link>https://eddychang.me/flex-react-native/</link><guid isPermaLink="false">https://eddychang.me/flex-react-native/</guid><content:encoded>&lt;p&gt;Flexbox 排版的全名是&lt;a href=&quot;https://www.w3.org/TR/css-flexbox/&quot;&gt;Flexible Box Layout Module&lt;/a&gt;(彈性的盒排版模組)，是由 W3C 所制定的 CSS3 排版模組。Flexbox 的目的是提供更有效率的排版、對齊與分佈空格在容器之中的項目，甚至是在項目的尺寸大小是未知或動態的情況。&lt;/p&gt;
 &lt;p&gt;Flexbox 排版適合於應用程式中的元件，以及小型規模的排版。W3C 也另外制定了一個&lt;a href=&quot;https://www.w3.org/TR/css-grid-1/&quot;&gt;Grid 排版模組&lt;/a&gt;，這是適合使用於大型規模排版情況。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;註: Flex 的中文意思是”彈性的”、“靈活的”，box 的中文意思是”盒子”、“箱子”。&lt;/p&gt;
@@ -393,8 +402,8 @@ line1&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span cla
     width&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; width&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;h2&gt;Some hints&lt;/h2&gt;
-&lt;p&gt;If the element has a parent container, child element can be positioned with Flex item property — ‘align-self’ inside parent container still being Flex container, behaving and accepting Flex container properties.&lt;/p&gt;
+&lt;h2&gt;一些密訣&lt;/h2&gt;
+&lt;p&gt;If the element has a parent container, child element can be positioned with Flex item property — &lt;code class=&quot;language-text&quot;&gt;align-self&lt;/code&gt; inside parent container still being Flex container, behaving and accepting Flex container properties.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Flex container children always follows parent container Main Axis direction&lt;/p&gt;
@@ -433,13 +442,4 @@ line1&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span cla
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h2&gt;flex vs flexGrow vs flexShrink vs flexBasis in React Native?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/43143258/flex-vs-flexgrow-vs-flexshrink-vs-flexbasis-in-react-native&quot;&gt;https://stackoverflow.com/questions/43143258/flex-vs-flexgrow-vs-flexshrink-vs-flexbasis-in-react-native&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[區域網路用Gatsby Develop測試]]></title><description><![CDATA[測試 Gatsby 時，使用下面的指令只能在同一台機器上用   測試: 如果你想要在同區域網路(或無線網路)的手機、其它電腦上的瀏覽器來測試時，可以改用以下的指令來啟動測試伺服器(-H 是 host 的意思): 之後手機或其它電腦的瀏覽器可以直接輸入 ip…]]></description><link>https://eddychang.me/test-gatsby-in-lan/</link><guid isPermaLink="false">https://eddychang.me/test-gatsby-in-lan/</guid><content:encoded>&lt;p&gt;測試 Gatsby 時，使用下面的指令只能在同一台機器上用 &lt;code class=&quot;language-text&quot;&gt;localhost&lt;/code&gt; 測試:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;如果你想要在同區域網路(或無線網路)的手機、其它電腦上的瀏覽器來測試時，可以改用以下的指令來啟動測試伺服器(-H 是 host 的意思):&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby develop -H 0.0.0.0 -p 8000&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;之後手機或其它電腦的瀏覽器可以直接輸入 ip 加上埠號來測試，例如&lt;code class=&quot;language-text&quot;&gt;http://192.168.2.105:8000/&lt;/code&gt;就可以看到網站畫面。&lt;/p&gt;
-&lt;p&gt;另外也有使用電腦 hostname 的方式，請再參考官方的 Github 中&lt;a href=&quot;https://github.com/gatsbyjs/gatsby/issues/5801&quot;&gt;issue #5801&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/43143258/flex-vs-flexgrow-vs-flexshrink-vs-flexbasis-in-react-native&quot;&gt;https://stackoverflow.com/questions/43143258/flex-vs-flexgrow-vs-flexshrink-vs-flexbasis-in-react-native&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>

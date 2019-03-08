@@ -9,8 +9,8 @@
       "path---test-gatsby-in-lan-3e54a80cac63de455e32.js.map"
     ],
     "path---": [
-      "path----3893802b53de5f32abb0.js",
-      "path----3893802b53de5f32abb0.js.map"
+      "path----89f23bce123aab2c38f2.js",
+      "path----89f23bce123aab2c38f2.js.map"
     ],
     "path---react-native-project-start-step": [
       "path---react-native-project-start-step-edd0fd11fec21b109307.js",
@@ -25,12 +25,12 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-d01e49c253250e9d41a6.js",
-      "component---src-layouts-index-js-d01e49c253250e9d41a6.js.map"
+      "component---src-layouts-index-js-76796b16914487c28f79.js",
+      "component---src-layouts-index-js-76796b16914487c28f79.js.map"
     ],
     "path---flex-react-native": [
-      "path---flex-react-native-66868ef513156f0c2cbf.js",
-      "path---flex-react-native-66868ef513156f0c2cbf.js.map"
+      "path---flex-react-native-8ad76f91aae109bb1561.js",
+      "path---flex-react-native-8ad76f91aae109bb1561.js.map"
     ],
     "path---index": [
       "path---index-112ea915471b3f59babb.js",
@@ -63,9 +63,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-6d2bcd87818cc7a01bfa.js",
+      "app-c49ac9633f92e6d3900b.js",
       "build-js-styles.css",
-      "app-6d2bcd87818cc7a01bfa.js.map",
+      "app-c49ac9633f92e6d3900b.js.map",
       "build-js-styles.css.map"
     ],
     "path---new-blog": [
