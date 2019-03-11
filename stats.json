@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---react-native-eslint-prettier": [
+      "path---react-native-eslint-prettier-2b86e51cfb1c4c59b7b8.js",
+      "path---react-native-eslint-prettier-2b86e51cfb1c4c59b7b8.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
       "component---src-pages-index-js-aa9570313651ef926b5a.js.map"
@@ -13,8 +17,8 @@
       "path---learn-scss-in-15-mins-c760b6bb9fa7a7d1482e.js.map"
     ],
     "path---": [
-      "path----0c04c6d6a64f2004247e.js",
-      "path----0c04c6d6a64f2004247e.js.map"
+      "path----a47752efde3697affa22.js",
+      "path----a47752efde3697affa22.js.map"
     ],
     "path---react-native-project-start-step": [
       "path---react-native-project-start-step-edd0fd11fec21b109307.js",
@@ -37,8 +41,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-cc88a675bbb890490947.js",
-      "component---src-layouts-index-js-cc88a675bbb890490947.js.map"
+      "component---src-layouts-index-js-304f8651a9d680dae82d.js",
+      "component---src-layouts-index-js-304f8651a9d680dae82d.js.map"
     ],
     "path---js-semicolon": [
       "path---js-semicolon-d4a8d1ce5ef1da42121f.js",
@@ -87,9 +91,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-75be12513bf4c8a30810.js",
+      "app-d4ca29ba71619c8e20dc.js",
       "build-js-styles.css",
-      "app-75be12513bf4c8a30810.js.map",
+      "app-d4ca29ba71619c8e20dc.js.map",
       "build-js-styles.css.map"
     ],
     "path---new-blog": [
