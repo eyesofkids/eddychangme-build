@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---react-native-eslint-prettier": [
-      "path---react-native-eslint-prettier-2b86e51cfb1c4c59b7b8.js",
-      "path---react-native-eslint-prettier-2b86e51cfb1c4c59b7b8.js.map"
+      "path---react-native-eslint-prettier-6001ff45d40e640cfedb.js",
+      "path---react-native-eslint-prettier-6001ff45d40e640cfedb.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-aa9570313651ef926b5a.js",
@@ -91,9 +91,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-de39d1589ebd96519b12.js",
+      "app-b194d45b0a1a00366fac.js",
       "build-js-styles.css",
-      "app-de39d1589ebd96519b12.js.map",
+      "app-b194d45b0a1a00366fac.js.map",
       "build-js-styles.css.map"
     ],
     "path---new-blog": [
@@ -113,8 +113,8 @@
       "path---about-14bb4a7214c13dcf624f.js.map"
     ],
     "path---es-6-tdz": [
-      "path---es-6-tdz-db522717f13314074cb5.js",
-      "path---es-6-tdz-db522717f13314074cb5.js.map"
+      "path---es-6-tdz-7d1af1334df136c76686.js",
+      "path---es-6-tdz-7d1af1334df136c76686.js.map"
     ]
   }
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[eddychang部落格]]></title><description><![CDATA[Eddy Chang的個人部落格]]></description><link>https://eddychang.me</link><generator>RSS for Node</generator><lastBuildDate>Mon, 11 Mar 2019 06:51:56 GMT</lastBuildDate><item><title><![CDATA[在Visual Studio Code中的React Native專案設定ESLint與Prettier]]></title><link>https://eddychang.me/react-native-eslint-prettier/</link><guid isPermaLink="false">https://eddychang.me/react-native-eslint-prettier/</guid><content:encoded>&lt;h2&gt;前言&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[eddychang部落格]]></title><description><![CDATA[Eddy Chang的個人部落格]]></description><link>https://eddychang.me</link><generator>RSS for Node</generator><lastBuildDate>Wed, 13 Mar 2019 18:26:37 GMT</lastBuildDate><item><title><![CDATA[在Visual Studio Code中的React Native專案設定ESLint與Prettier]]></title><link>https://eddychang.me/react-native-eslint-prettier/</link><guid isPermaLink="false">https://eddychang.me/react-native-eslint-prettier/</guid><content:encoded>&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;React Native 專案並沒有內建 eslint 模組，所以需要在專案建立後手動進行設定。有很多種設定的方式，這裡是使用 react-app 的設定值(Create React App 使用的)為基礎，以及針對 Visual Studio Code 編輯器的設定，其它設定方式可再參考最後的參考資料中的設定。&lt;/p&gt;
 &lt;h2&gt;步驟&lt;/h2&gt;
 &lt;h3&gt;步驟一: 建立新的專案&lt;/h3&gt;
@@ -24,6 +24,9 @@
 &lt;blockquote&gt;
 &lt;p&gt;註: 每個專案都要安裝一次，這是安裝到專案中的模組&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意: 最好不要把 eslint 與相關模組安裝到全域中&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;步驟四: 更新 VS Code 設定&lt;/h3&gt;
 &lt;p&gt;請將以下的設定加到你的 VSCode 使用者設定之中(在選單 -&gt; 喜好設定 -&gt; 設定，然後點按右上角有個&lt;code class=&quot;language-text&quot;&gt;{}&lt;/code&gt;的圖示，直接貼到右邊的視窗中的花括號內即可)：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;
@@ -36,6 +39,9 @@
   &lt;span class=&quot;token property&quot;&gt;&quot;eslint.alwaysShowStatus&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;token property&quot;&gt;&quot;files.autoSave&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;onFocusChange&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;註: 這個只需要設定一次，之後所有專案都可以使用&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;步驟五: 加入 eslint 與 prettier 設定檔案&lt;/h3&gt;
 &lt;p&gt;手動建立兩個 &lt;code class=&quot;language-text&quot;&gt;.eslintrc&lt;/code&gt; 與 &lt;code class=&quot;language-text&quot;&gt;.prettierrc&lt;/code&gt; 的設定檔到專案的根目錄。內容如下節內容，最好是先建立好，之後每個專案直接拷貝即可。&lt;/p&gt;
 &lt;h2&gt;eslint 與 prettier 設定檔案內容&lt;/h2&gt;
@@ -67,6 +73,20 @@
 &lt;blockquote&gt;
 &lt;p&gt;註: 風格可依個人喜好設定，請參考 &lt;a href=&quot;https://prettier.io/docs/en/options.html&quot;&gt;prettier 選項文件&lt;/a&gt;，以上設定為”字串使用單引號”、“物件字面定義統一加上最後逗號”、“不使用分號作為語句結尾”&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h2&gt;故障排除&lt;/h2&gt;
+&lt;h3&gt;eslint 不會正常檢查&lt;/h3&gt;
+&lt;p&gt;使用以下的指令來除錯，看有什麼錯誤訊息，然後到網路中搜尋:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;eslint --debug App.js&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;再次重頭檢查所有的相關設定，可能會包含以下幾個:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;vscode 的版本是不是有升級到最新版本&lt;/li&gt;
+&lt;li&gt;vscode 裡擴充是否有安裝&lt;/li&gt;
+&lt;li&gt;vscode 裡的喜好設定是否有正確，或出現錯誤的訊息&lt;/li&gt;
+&lt;li&gt;專案裡是否正確安裝所需模組(看 package.json 裡)&lt;/li&gt;
+&lt;li&gt;是否有安裝到全或的 eslint 模組，有可能造成衝突&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;參考資料&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/appstud/setup-eslint-and-prettier-together-for-react-and-react-native-projects-in-visual-studio-code-78772d58358d&quot;&gt;Setup ESLint and Prettier together for react and react-native projects in Visual Studio Code&lt;/a&gt;&lt;/li&gt;
@@ -544,13 +564,13 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;以上面解說來看，以 let/const 宣告的變數，的確也是有提升(hoist)的作用。這個是很容易被誤解的地方，實際上以 let/const 宣告的變數也是會有提升(hoist)的作用。提升是 JS 語言中對於變數宣告的基本特性，只是因為 TDZ 的作用，並不會像使用 var 來宣告變數，只是會得到&lt;code class=&quot;language-text&quot;&gt;undefined&lt;/code&gt;而已，現在則是會直接拋出&lt;code class=&quot;language-text&quot;&gt;ReferenceError&lt;/code&gt;錯誤，而且很明顯的這是一個在執行期間才會出現的錯誤。&lt;/p&gt;
 &lt;p&gt;用一個簡單的範例來說明 let 宣告的變數會在作用域中被提升，就像下面這樣:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;
-      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;outer value&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// 這裡會產生 TDZ for x&lt;/span&gt;
-    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// TDZ期間存取，產生ReferenceError錯誤&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;inner value&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 對x的宣告語句，這裡結束 TDZ for x&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;outer value&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// 這裡會產生 TDZ for x&lt;/span&gt;
+  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// TDZ期間存取，產生ReferenceError錯誤&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;inner value&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 對x的宣告語句，這裡結束 TDZ for x&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;在範例中的 IIFE 裡的函式作用域，變數 x 在作用域中會先被提升到函式區域中的最上面，但這時會產生 TDZ，如果在程式流程還未執行到 x 的宣告語句時，算是在 TDZ 作用的期間，這時候存取 x 的值，就會拋出&lt;code class=&quot;language-text&quot;&gt;ReferenceError&lt;/code&gt;錯誤。&lt;/p&gt;
 &lt;p&gt;在 let 與 const 宣告的章節&lt;a href=&quot;http://www.ecma-international.org/ecma-262/6.0/#sec-let-and-const-declarations&quot;&gt;13.3.1&lt;/a&gt;接著的幾句，說明有關變數是如何進行初始化的:&lt;/p&gt;
