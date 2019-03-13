@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[eddychang部落格]]></title><description><![CDATA[Eddy Chang的個人部落格]]></description><link>https://eddychang.me</link><generator>RSS for Node</generator><lastBuildDate>Wed, 13 Mar 2019 18:26:37 GMT</lastBuildDate><item><title><![CDATA[在Visual Studio Code中的React Native專案設定ESLint與Prettier]]></title><link>https://eddychang.me/react-native-eslint-prettier/</link><guid isPermaLink="false">https://eddychang.me/react-native-eslint-prettier/</guid><content:encoded>&lt;h2&gt;前言&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[eddychang部落格]]></title><description><![CDATA[Eddy Chang的個人部落格]]></description><link>https://eddychang.me</link><generator>RSS for Node</generator><lastBuildDate>Wed, 13 Mar 2019 18:45:44 GMT</lastBuildDate><item><title><![CDATA[在Visual Studio Code中的React Native專案設定ESLint與Prettier]]></title><link>https://eddychang.me/react-native-eslint-prettier/</link><guid isPermaLink="false">https://eddychang.me/react-native-eslint-prettier/</guid><content:encoded>&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;React Native 專案並沒有內建 eslint 模組，所以需要在專案建立後手動進行設定。有很多種設定的方式，這裡是使用 react-app 的設定值(Create React App 使用的)為基礎，以及針對 Visual Studio Code 編輯器的設定，其它設定方式可再參考最後的參考資料中的設定。&lt;/p&gt;
 &lt;h2&gt;步驟&lt;/h2&gt;
 &lt;h3&gt;步驟一: 建立新的專案&lt;/h3&gt;
@@ -536,7 +536,7 @@ line1&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span cla
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;h2&gt;flex vs flexGrow vs flexShrink vs flexBasis in React Native?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/43143258/flex-vs-flexgrow-vs-flexshrink-vs-flexbasis-in-react-native&quot;&gt;https://stackoverflow.com/questions/43143258/flex-vs-flexgrow-vs-flexshrink-vs-flexbasis-in-react-native&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[理解ES6中的暫時死區(TDZ)]]></title><link>https://eddychang.me/es6-tdz/</link><guid isPermaLink="false">https://eddychang.me/es6-tdz/</guid><content:encoded>&lt;p&gt;Temporal Dead Zone(TDZ)是 ES6(ES2015)中對作用域新的專用語義。TDZ 名詞並沒有明確地寫在 ES6 的標準文件中，一開始是出現在&lt;a href=&quot;https://esdiscuss.org/&quot;&gt;ES Discussion&lt;/a&gt;討論區中，是對於某些遇到在區塊作用域綁定早於宣告語句時的狀況時，所使用的專用術語。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/43143258/flex-vs-flexgrow-vs-flexshrink-vs-flexbasis-in-react-native&quot;&gt;https://stackoverflow.com/questions/43143258/flex-vs-flexgrow-vs-flexshrink-vs-flexbasis-in-react-native&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[理解ES6中的暫時死區(TDZ)]]></title><link>https://eddychang.me/es6-tdz/</link><guid isPermaLink="false">https://eddychang.me/es6-tdz/</guid><content:encoded>&lt;p&gt;Temporal Dead Zone(TDZ)是 ES6(ES2015)中對作用域新的專用語。TDZ 名詞並沒有明確地寫在 ES6 的標準文件中，一開始是出現在&lt;a href=&quot;https://esdiscuss.org/&quot;&gt;ES Discussion&lt;/a&gt;討論區中，是對於某些遇到在區塊作用域綁定早於宣告語句時的狀況時，所使用的專用術語。&lt;/p&gt;
 &lt;p&gt;以英文名詞來說明，Temporal 是”時間的、暫時的”意義，Dead Zone 則是”死區”，意指”電波達不到的區域”。所以 TDZ 可以翻為”時間上暫時的無法達到的區域”，簡稱為”時間死區”或”暫時死區”。&lt;/p&gt;
 &lt;h2&gt;let/const 與 var&lt;/h2&gt;
 &lt;p&gt;在 ES6 的新特性中，最容易看到 TDZ 作用就是在 let/const 的使用上，let/const 與 var 的主要不同有兩個地方:&lt;/p&gt;
@@ -587,12 +587,12 @@ assigned the value of its Initializer’s AssignmentExpression when
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;
       &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
-&lt;p&gt;因為右值(要被指定的值)，它在此時是一個還未被初始化完成的變數，實際上我們就在這一個同一表格達式中要初始化它。&lt;/p&gt;
+&lt;p&gt;因為右值(要被指定的值)，它在此時是一個還未被初始化完成的變數，實際上我們就在這一個同一表達式中要初始化它。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;註: TDZ 最一開始是為了 const 所設計的，但後來的對 let 的設計也是一致的，範例中都用 let 來說明會比較容易。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;註: 在 ES6 標準中，對於 const 所宣告的識別子仍然也經常為 variable(變數)，稱為 constant variable(固定的變數)。以 const 宣告所建立出來的常數，在 JS 中只是不能再被指定(can’t re-assignment)，並不是不可被改變(immutable)的，這兩種概念仍然有很大的差異。&lt;/p&gt;
+&lt;p&gt;註: 在 ES6 標準中，對於 const 所宣告的識別子仍然也經常包含在 variable(變數)，被稱為 constant variable(固定的變數)。以 const 宣告所建立出來的常數，在 JS 中只是不能再被指定(can’t re-assignment)，並不是不可被改變(immutable)的，這兩種概念仍然有很大的差異。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;函式的傳入參數預設值&lt;/h2&gt;
 &lt;p&gt;TDZ 作用在 ES6 中，很明確的就是與區塊作用域(block scope)，以及變數/常數的要如何被初始化有關。實際上在許多 ES6 新特性中都有出現 TDZ 作用，而另一個常會被提及的是函式的傳入參數預設值中的 TDZ 作用。&lt;/p&gt;

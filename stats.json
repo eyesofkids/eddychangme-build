@@ -17,8 +17,8 @@
       "path---learn-scss-in-15-mins-c760b6bb9fa7a7d1482e.js.map"
     ],
     "path---": [
-      "path----638dc9a59a3ff12caf08.js",
-      "path----638dc9a59a3ff12caf08.js.map"
+      "path----87b7357689a56afe669a.js",
+      "path----87b7357689a56afe669a.js.map"
     ],
     "path---react-native-project-start-step": [
       "path---react-native-project-start-step-edd0fd11fec21b109307.js",
@@ -41,8 +41,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-5e0707ed73b78e0202f4.js",
-      "component---src-layouts-index-js-5e0707ed73b78e0202f4.js.map"
+      "component---src-layouts-index-js-7525821e47e3db5c9a5c.js",
+      "component---src-layouts-index-js-7525821e47e3db5c9a5c.js.map"
     ],
     "path---js-semicolon": [
       "path---js-semicolon-d4a8d1ce5ef1da42121f.js",
@@ -91,9 +91,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-b194d45b0a1a00366fac.js",
+      "app-65741ae03d82e21c47ff.js",
       "build-js-styles.css",
-      "app-b194d45b0a1a00366fac.js.map",
+      "app-65741ae03d82e21c47ff.js.map",
       "build-js-styles.css.map"
     ],
     "path---new-blog": [
@@ -113,8 +113,8 @@
       "path---about-14bb4a7214c13dcf624f.js.map"
     ],
     "path---es-6-tdz": [
-      "path---es-6-tdz-7d1af1334df136c76686.js",
-      "path---es-6-tdz-7d1af1334df136c76686.js.map"
+      "path---es-6-tdz-a2fd5e5cce2b1ba7836b.js",
+      "path---es-6-tdz-a2fd5e5cce2b1ba7836b.js.map"
     ]
   }
 }
